@@ -250,6 +250,16 @@
     <string/>
    </property>
   </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>287</y>
+     <width>321</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
   <zorder>back_label</zorder>
   <zorder>course3_title</zorder>
   <zorder>pushButton</zorder>
@@ -261,6 +271,7 @@
   <zorder>label_5</zorder>
   <zorder>course</zorder>
   <zorder>stu</zorder>
+  <zorder>listWidget</zorder>
  </widget>
  <resources/>
  <connections/>
