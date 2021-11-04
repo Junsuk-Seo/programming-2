@@ -19,7 +19,7 @@ SecDialog::SecDialog(QWidget *parent) :
 
 
     mydb = QSqlDatabase::addDatabase("QSQLITE");
-    mydb.setDatabaseName("C:/Users/zzung/course_db.db");   // change address
+    mydb.setDatabaseName("C:/Users/zzung/course_db1.db");   // change address
     if(!mydb.open()){
         ui->label->setText("Failed to open the db");
     }else
