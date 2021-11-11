@@ -15,6 +15,17 @@ public:
     explicit SecDialog2(QWidget *parent = nullptr);
     ~SecDialog2();
 
+private slots:
+    void on_home_clicked();
+
+    void on_course_clicked();
+
+    void on_course_plus_clicked();
+
+    void on_stu_clicked();
+
+    void on_student_plus_clicked();
+
 private:
     Ui::SecDialog2 *ui;
 };

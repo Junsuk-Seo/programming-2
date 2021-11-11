@@ -18,7 +18,7 @@
     <rect>
      <x>590</x>
      <y>130</y>
-     <width>141</width>
+     <width>139</width>
      <height>31</height>
     </rect>
    </property>
@@ -38,10 +38,10 @@
   <widget class="QPushButton" name="back_pushbutton">
    <property name="geometry">
     <rect>
-     <x>735</x>
-     <y>450</y>
-     <width>61</width>
-     <height>61</height>
+     <x>745</x>
+     <y>460</y>
+     <width>51</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="text">
@@ -61,15 +61,16 @@
   <widget class="QPushButton" name="loadData">
    <property name="geometry">
     <rect>
-     <x>650</x>
-     <y>20</y>
-     <width>93</width>
-     <height>61</height>
+     <x>20</x>
+     <y>560</y>
+     <width>81</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>Times New Roman</family>
+     <pointsize>12</pointsize>
     </font>
    </property>
    <property name="text">
@@ -79,8 +80,8 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>540</y>
+     <x>120</x>
+     <y>560</y>
      <width>121</width>
      <height>41</height>
     </rect>
@@ -102,12 +103,96 @@
     <string>TextLabel</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="course">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>20</y>
+     <width>31</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="home">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>31</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stu">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>20</y>
+     <width>31</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="course_plus">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>20</y>
+     <width>31</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="student_plus">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>20</y>
+     <width>31</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="back_label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>801</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <zorder>back_label</zorder>
   <zorder>label_2</zorder>
   <zorder>back_pushbutton</zorder>
   <zorder>loadData</zorder>
   <zorder>label</zorder>
   <zorder>Add_Pushbutton</zorder>
   <zorder>tableView</zorder>
+  <zorder>course</zorder>
+  <zorder>home</zorder>
+  <zorder>stu</zorder>
+  <zorder>course_plus</zorder>
+  <zorder>student_plus</zorder>
  </widget>
  <resources/>
  <connections/>

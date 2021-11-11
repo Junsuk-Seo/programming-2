@@ -1,0 +1,11 @@
+release/course3.o
+release/main.o
+release/pro2.o
+release/secdialog.o
+release/stu_1.o
+release/stu_3.o
+release/moc_course3.o
+release/moc_pro2.o
+release/moc_secdialog.o
+release/moc_stu_1.o
+release/moc_stu_3.o

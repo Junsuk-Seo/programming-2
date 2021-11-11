@@ -13,19 +13,22 @@ SOURCES += \
     main.cpp \
     pro2.cpp \
     secdialog.cpp \
-    secdialog2.cpp
+    stu_1.cpp \
+    stu_3.cpp
 
 HEADERS += \
     course3.h \
     pro2.h \
     secdialog.h \
-    secdialog2.h
+    stu_1.h \
+    stu_3.h
 
 FORMS += \
     course3.ui \
     pro2.ui \
     secdialog.ui \
-    secdialog2.ui
+    stu_1.ui \
+    stu_3.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

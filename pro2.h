@@ -18,10 +18,21 @@ public:
     pro2(QWidget *parent = nullptr);
     ~pro2();
 
+
 private slots:
     void on_pushButton_clicked();
 
     void on_pushButton_2_clicked();
+
+    void on_home_clicked();
+
+    void on_course_clicked();
+
+    void on_course_plus_clicked();
+
+    void on_stu_clicked();
+
+    void on_student_plus_clicked();
 
 private:
     Ui::pro2 *ui;
