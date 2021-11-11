@@ -35,8 +35,8 @@
   <widget class="QPushButton" name="back_pushbutton">
    <property name="geometry">
     <rect>
-     <x>590</x>
-     <y>470</y>
+     <x>740</x>
+     <y>460</y>
      <width>51</width>
      <height>51</height>
     </rect>
@@ -158,10 +158,10 @@
   <widget class="QTableView" name="tableView">
    <property name="geometry">
     <rect>
-     <x>220</x>
+     <x>70</x>
      <y>191</y>
-     <width>351</width>
-     <height>301</height>
+     <width>660</width>
+     <height>320</height>
     </rect>
    </property>
   </widget>
