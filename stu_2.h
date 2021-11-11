@@ -16,15 +16,21 @@ public:
     ~stu_2();
 
 private slots:
-    void on_home_clicked();
+    void on_back_pushbutton_clicked();
 
     void on_course_clicked();
 
-    void on_course_plus_clicked();
-
     void on_stu_clicked();
 
+    void on_home_clicked();
+
+    void on_cousrse_plus_clicked();
+
+    void on_home_2_clicked();
+
     void on_student_plus_clicked();
+
+    void on_course_plus_clicked();
 
 private:
     Ui::stu_2 *ui;

@@ -101,7 +101,6 @@ void stu_1::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void 
         case 4: _t->on_home_clicked(); break;
         case 5: _t->on_stu_clicked(); break;
         case 6: _t->on_course_plus_clicked(); break;
-        //case 7: _t->on_home_2_clicked(); break;
         case 8: _t->on_student_plus_clicked(); break;
         default: ;
         }

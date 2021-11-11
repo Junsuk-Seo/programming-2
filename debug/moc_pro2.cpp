@@ -89,8 +89,8 @@ void pro2::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void *
         switch (_id) {
         case 0: _t->on_pushButton_clicked(); break;
         case 1: _t->on_pushButton_2_clicked(); break;
-        //case 2: _t->on_home_clicked(); break;
-        //case 3: _t->on_course_clicked(); break;
+        case 2: _t->on_home_clicked(); break;
+        case 3: _t->on_course_clicked(); break;
         case 4: _t->on_course_plus_clicked(); break;
         case 5: _t->on_stu_clicked(); break;
         case 6: _t->on_student_plus_clicked(); break;

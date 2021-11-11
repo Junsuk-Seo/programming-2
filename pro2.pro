@@ -1,4 +1,4 @@
-QT       += core gui sql
+QT       += core gui sql #add sql
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -9,26 +9,27 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    course3.cpp \
+    course_1.cpp \
+    course_2.cpp \
     main.cpp \
     pro2.cpp \
-    secdialog.cpp \
     stu_1.cpp \
-    stu_3.cpp
+    stu_2.cpp
 
 HEADERS += \
-    course3.h \
+    course_1.h \
+    course_2.h \
     pro2.h \
-    secdialog.h \
     stu_1.h \
-    stu_3.h
+    stu_2.h
 
 FORMS += \
-    course3.ui \
+    course_1.ui \
+    course_2.ui \
     pro2.ui \
-    secdialog.ui \
     stu_1.ui \
-    stu_3.ui
+    stu_2.ui \
+    stu_2.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

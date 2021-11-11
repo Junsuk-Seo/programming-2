@@ -48,17 +48,22 @@ public:
         back_label_1->setFont(font);
         back_pushbutton = new QPushButton(stu_1);
         back_pushbutton->setObjectName(QString::fromUtf8("back_pushbutton"));
-        back_pushbutton->setGeometry(QRect(590, 470, 51, 51));
+        back_pushbutton->setGeometry(QRect(740, 460, 51, 51));
         Add_Pushbutton = new QPushButton(stu_1);
         Add_Pushbutton->setObjectName(QString::fromUtf8("Add_Pushbutton"));
-        Add_Pushbutton->setGeometry(QRect(540, 150, 139, 31));
-        loadData = new QPushButton(stu_1);
-        loadData->setObjectName(QString::fromUtf8("loadData"));
-        loadData->setGeometry(QRect(20, 559, 80, 31));
+        Add_Pushbutton->setGeometry(QRect(590, 150, 139, 31));
         QFont font1;
         font1.setFamilies({QString::fromUtf8("Times New Roman")});
         font1.setPointSize(12);
-        loadData->setFont(font1);
+        font1.setBold(false);
+        Add_Pushbutton->setFont(font1);
+        loadData = new QPushButton(stu_1);
+        loadData->setObjectName(QString::fromUtf8("loadData"));
+        loadData->setGeometry(QRect(20, 559, 80, 31));
+        QFont font2;
+        font2.setFamilies({QString::fromUtf8("Times New Roman")});
+        font2.setPointSize(12);
+        loadData->setFont(font2);
         stu = new QPushButton(stu_1);
         stu->setObjectName(QString::fromUtf8("stu"));
         stu->setGeometry(QRect(710, 20, 31, 31));
@@ -79,7 +84,7 @@ public:
         label->setGeometry(QRect(110, 570, 54, 12));
         tableView = new QTableView(stu_1);
         tableView->setObjectName(QString::fromUtf8("tableView"));
-        tableView->setGeometry(QRect(220, 191, 351, 301));
+        tableView->setGeometry(QRect(70, 191, 660, 320));
 
         retranslateUi(stu_1);
 

@@ -1,11 +1,11 @@
-debug/course3.o
+debug/course_1.o
+debug/course_2.o
 debug/main.o
 debug/pro2.o
-debug/secdialog.o
 debug/stu_1.o
-debug/stu_3.o
-debug/moc_course3.o
+debug/stu_2.o
+debug/moc_course_1.o
+debug/moc_course_2.o
 debug/moc_pro2.o
-debug/moc_secdialog.o
 debug/moc_stu_1.o
-debug/moc_stu_3.o
+debug/moc_stu_2.o

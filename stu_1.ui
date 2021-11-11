@@ -48,11 +48,19 @@
   <widget class="QPushButton" name="Add_Pushbutton">
    <property name="geometry">
     <rect>
-     <x>540</x>
+     <x>590</x>
      <y>150</y>
      <width>139</width>
      <height>31</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
    </property>
    <property name="text">
     <string>Add new Students</string>

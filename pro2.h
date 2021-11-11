@@ -34,6 +34,9 @@ private slots:
 
     void on_student_plus_clicked();
 
+
+
+
 private:
     Ui::pro2 *ui;
 };

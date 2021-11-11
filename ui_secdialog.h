@@ -42,7 +42,7 @@ public:
         SecDialog->resize(800, 600);
         Add_Pushbutton = new QPushButton(SecDialog);
         Add_Pushbutton->setObjectName(QString::fromUtf8("Add_Pushbutton"));
-        Add_Pushbutton->setGeometry(QRect(590, 130, 139, 31));
+        Add_Pushbutton->setGeometry(QRect(590, 150, 139, 31));
         QFont font;
         font.setFamilies({QString::fromUtf8("Times New Roman")});
         font.setPointSize(12);
@@ -51,7 +51,7 @@ public:
         Add_Pushbutton->setFont(font);
         back_pushbutton = new QPushButton(SecDialog);
         back_pushbutton->setObjectName(QString::fromUtf8("back_pushbutton"));
-        back_pushbutton->setGeometry(QRect(745, 460, 51, 51));
+        back_pushbutton->setGeometry(QRect(740, 460, 51, 51));
         tableView = new QTableView(SecDialog);
         tableView->setObjectName(QString::fromUtf8("tableView"));
         tableView->setGeometry(QRect(70, 189, 661, 321));
